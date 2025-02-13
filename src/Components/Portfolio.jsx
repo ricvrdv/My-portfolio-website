@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Verona";
 
 /**
  * Project list
@@ -31,29 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "LIBFT",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Development of a C library that replicates standard C functions and includes additional custom functions.",
+    url: "https://github.com/ricvrdv/libft",
   },
   {
-    title: "Web Development for Beginners",
+    title: "FT_PRINTF",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Implementation of the printf function in C, requiring advanced knowledge of string formatting, pointer manipulation, and dynamic memory allocation.",
+    url: "https://github.com/ricvrdv/ft_printf",
   },
   {
-    title: "My Resume Site",
+    title: "GET_NEXT_LINE",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Creation of a C function that reads a line from a file efficiently, emphasizing memory management and optimized file reading.",
+    url: "https://github.com/ricvrdv/get_next_line",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "BORN2BEROOT",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Configuration of a secure Linux server using tools like LVM, UFW, and SSH. This project covers system administration concepts, user permissions, and security best practices.",
+    url: "https://github.com/ricvrdv/Born2beRoot",
   },
+  {
+    title: "PUSH_SWAP",
+    description:
+      "Development of a C program that sorts numbers using a limited set of operations, focusing on sorting algorithms and performance optimization.",
+    url: "https://github.com/ricvrdv/push_swap",
+  }
 ];
 
 const Portfolio = () => {
